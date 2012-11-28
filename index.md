@@ -38,6 +38,15 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+      <h1>{{ post.title }}</h1>
+      <p>{{ post.date | date_to_string }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
 ## To-Do
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
