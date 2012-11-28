@@ -38,11 +38,11 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-<ul class="posts">
+<ul class="posts unstyled">
   {% for post in site.posts %}
     <li>
       <h1>{{ post.title }}</h1>
-      <p>{{ post.date | date_to_string }}</p>
+      <p>{{ post.date | date_to_string }}</pcd >
     </li>
   {% endfor %}
 </ul>
