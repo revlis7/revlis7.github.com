@@ -38,15 +38,15 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-<ul class="posts unstyled">
+<div class="container">
   {% for post in site.posts %}
-    <li>
+    <div class="span8">
       <h1>{{ post.title }}</h1>
       <p>{{ post.date | date_to_string }}</p>
-      {{ post.content }}
-    </li>
+      <p>{{ post.content }}</p>
+    </div>
   {% endfor %}
-</ul>
+</div>
 
 ## To-Do
 
