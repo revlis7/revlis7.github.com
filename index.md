@@ -43,6 +43,7 @@ Here's a sample "posts list".
     <li>
       <h1>{{ post.title }}</h1>
       <p>{{ post.date | date_to_string }}</p>
+      {{ content }}
     </li>
   {% endfor %}
 </ul>
