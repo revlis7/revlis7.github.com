@@ -42,7 +42,7 @@ Here's a sample "posts list".
   {% for post in site.posts %}
     <li>
       <h1>{{ post.title }}</h1>
-      <p>{{ post.date | date_to_string }}</pcd >
+      <p>{{ post.date | date_to_string }}</p>
     </li>
   {% endfor %}
 </ul>
