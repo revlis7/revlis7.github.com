@@ -1,0 +1,15 @@
+.post_title {
+  margin: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.post_title h1 {
+  margin: 10px 0;
+}
+.post_title a {
+  text-decoration: none;
+  color: #333;
+}
+.post_end {
+  margin:10px 0;
+  color: #fff;
+}
