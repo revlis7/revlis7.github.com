@@ -14,5 +14,4 @@ tags: [jekyll, bootstrap]
 
 ##### Liquid模板语言
 
-快速教程：
 <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
