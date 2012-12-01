@@ -10,8 +10,8 @@ tags: [jekyll, bootstrap]
 
 ##### jekyll quick start
 
-<http://jekyllbootstrap.com/usage/jekyll-quick-start.html>
+[http://jekyllbootstrap.com/usage/jekyll-quick-start.html](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 ##### Liquid模板语言
 
-<https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
+[https://github.com/Shopify/liquid/wiki/Liquid-for-Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
