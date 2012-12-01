@@ -12,9 +12,3 @@ tags: [jekyll, bootstrap]
 
 快速教程：
 <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
-
-##### 2012/12/02更新：获取post的url地址：
-
-    {% raw %}
-    {{ BASE_PATH }}{{ post.url }}
-    {% endraw %}
